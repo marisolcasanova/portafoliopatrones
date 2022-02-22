@@ -1,0 +1,4 @@
+1. Revisar válvula de cerrado.
+2. Revisar temperatura de contenedores.
+3. ...
+4. Concluir revisión sellando formato.
