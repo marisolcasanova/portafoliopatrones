@@ -3,9 +3,9 @@ package com.mayab.desarrollo.comportamiento.strategy;
 public class Articulo {
 	String nombre;
 	String costo;
-	String cantidad;
+	int cantidad;
 	
-	public Articulo(String n, String c, String cant) {
+	public Articulo(String n, String c, int cant) {
 		this.nombre = n;
 		this.costo = c;
 		this.cantidad = cant;
@@ -27,11 +27,11 @@ public class Articulo {
 		this.costo = costo;
 	}
 
-	public String getCantidad() {
+	public int getCantidad() {
 		return cantidad;
 	}
 
-	public void setCantidad(String cantidad) {
+	public void setCantidad(int cantidad) {
 		this.cantidad = cantidad;
 	}
 	

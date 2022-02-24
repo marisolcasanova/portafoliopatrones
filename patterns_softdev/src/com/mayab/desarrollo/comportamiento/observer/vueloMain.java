@@ -9,7 +9,7 @@ public class vueloMain {
 		DisplayAeropuerto displayaero = new DisplayAeropuerto(vuelo);
 		CrewVuelo crewvuelo = new CrewVuelo(vuelo);
 		
-		vuelo.changeVuelo("Argentina", "8 am", "cancelado", 87, "4 de mayo");
+		vuelo.changeVuelo("Argentina - Honduras", "8 am", "cancelado", 87, "4 de mayo");
 
 	}
 
